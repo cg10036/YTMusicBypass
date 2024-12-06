@@ -22,4 +22,10 @@
 3. `Settings` -> `Rewrites`에 도메인을 등록합니다.
    - Domain: `music.youtube.com`, `youtubei.googleapis.com`
    - Answer: 서버 아이피 주소
-4. 휴대폰으로 NextDNS에 접속해 설정을 완료합니다.
+
+### 핸드폰
+
+핸드폰에서 방금 설정한 NextDNS를 사용하게 변경해야 합니다.
+
+1. 핸드폰으로 NextDNS에 접속해 아까 만든 프로파일을 선택합니다.
+2. 안내에 따라 핸드폰에 NextDNS 설정을 완료하면 됩니다.
