@@ -6,7 +6,7 @@
 
 ## 원리
 
-1. Custom DNS를 사용해 _.music.youtube.com, _.youtubei.googleapis.com의 ip주소를 유튜브 원본 서버가 아닌, 따로 호스팅 되고 있는 **한국이 아닌** 서버로 리턴합니다.
+1. Custom DNS를 사용해 \*.music.youtube.com, \*.youtubei.googleapis.com의 ip주소를 유튜브 원본 서버가 아닌, 따로 호스팅 되고 있는 **한국이 아닌** 서버로 리턴합니다.
 2. 호스팅 되고 있는 서버에서 haproxy를 사용해 마치 proxy처럼 작동하게 되고, 유튜브는 한국이 아닌 서버가 호스팅 되고 있는 나라로 인식하게 됩니다.
 
 ## 사용 방법
